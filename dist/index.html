@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="ตรวจผลสลากและติดตามผลรางวัล AEC Treasury Lotto"
+  >
+
+  <title>AEC Treasury Lotto</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/pages/home.css">
+
+  <script src="assets/js/shared.js" defer></script>
+  <script src="assets/js/pages/home.js" defer></script>
+</head>
+
+<body data-page="home">
+  <div data-component="topbar"></div>
+
+  <main class="home-main">
+    <section class="hero">
+      <div class="hero__background"></div>
+
+      <div class="container hero__layout">
+        <div
+          class="hero__quote hero__quote--left"
+          aria-hidden="true"
+        >
+          <span>Good</span>
+          <span>Communities</span>
+          <span>Brighter</span>
+          <span>Tomorrows</span>
+        </div>
+
+        <div class="hero__content">
+          <p class="hero__eyebrow">
+            Charity Lottery
+          </p>
+
+          <h1 class="hero__title">
+            ตรวจผลสลาก
+            <span>AEC Treasury Lotto</span>
+          </h1>
+
+          <p class="hero__description">
+            ร่วมเป็นส่วนหนึ่งในการพัฒนาชุมชน
+            สร้างโอกาสใหม่ เพื่อสังคมที่ยั่งยืน
+          </p>
+
+          <p class="hero__description-en">
+            Community Today&nbsp;&nbsp; Brighter Tomorrows
+          </p>
+
+          <form
+            class="ticket-checker"
+            id="ticket-checker"
+          >
+            <div class="ticket-checker__input">
+              <span
+                class="ticket-checker__icon"
+                aria-hidden="true"
+              >
+                <i class="fa-solid fa-ticket"></i>
+              </span>
+
+              <label
+                class="sr-only"
+                for="ticket-number"
+              >
+                หมายเลขสลาก
+              </label>
+
+              <input
+                id="ticket-number"
+                name="ticketNumber"
+                type="text"
+                inputmode="text"
+                autocomplete="off"
+                maxlength="12"
+                placeholder="กรอกหมายเลขสลาก"
+              >
+            </div>
+
+            <button
+              class="ticket-checker__submit"
+              type="submit"
+            >
+              <i
+                class="fa-solid fa-magnifying-glass"
+                aria-hidden="true"
+              ></i>
+
+              <span>ตรวจผลรางวัล</span>
+            </button>
+
+            <button
+              class="ticket-checker__scan"
+              type="button"
+            >
+              <i
+                class="fa-solid fa-qrcode"
+                aria-hidden="true"
+              ></i>
+
+              <span>สแกน QR Code</span>
+            </button>
+          </form>
+
+          <div class="hero-benefits">
+            <div class="benefit">
+              <span
+                class="benefit__icon"
+                aria-hidden="true"
+              >
+                <i class="fa-solid fa-heart"></i>
+              </span>
+
+              <span>
+                รายได้เพื่อ
+                <strong>พัฒนาชุมชน</strong>
+              </span>
+            </div>
+
+            <div class="benefit">
+              <span
+                class="benefit__icon"
+                aria-hidden="true"
+              >
+                <i class="fa-solid fa-leaf"></i>
+              </span>
+
+              <span>
+                ส่งเสริม
+                <strong>ความยั่งยืน</strong>
+              </span>
+            </div>
+
+            <div class="benefit">
+              <span
+                class="benefit__icon"
+                aria-hidden="true"
+              >
+                <i class="fa-solid fa-people-group"></i>
+              </span>
+
+              <span>
+                สร้างโอกาส
+                <strong>ให้เกษตรกร</strong>
+              </span>
+            </div>
+
+            <div class="benefit">
+              <span
+                class="benefit__icon"
+                aria-hidden="true"
+              >
+                <i class="fa-solid fa-shield-halved"></i>
+              </span>
+
+              <span>
+                โปร่งใส
+                <strong>ตรวจสอบได้</strong>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__ticket">
+          <img
+            src="assets/images/ticket.png"
+            alt="ตัวอย่างสลาก AEC Treasury Lotto"
+          >
+        </div>
+
+        <div
+          class="hero__quote hero__quote--right"
+          aria-hidden="true"
+        >
+          “เล็ก ๆ
+          <br>
+          ก็สร้าง
+          <br>
+          การเปลี่ยนแปลงได้”
+        </div>
+      </div>
+    </section>
+
+    <section class="dashboard">
+      <div class="container dashboard__grid">
+        <article class="dashboard-card results-card">
+          <header class="card-header">
+            <div class="card-title">
+              <span
+                class="card-title__icon"
+                aria-hidden="true"
+              >
+                <i class="fa-solid fa-trophy"></i>
+              </span>
+
+              <div>
+                <h2>ผลรางวัลงวดล่าสุด</h2>
+
+                <p>
+                  <i
+                    class="fa-regular fa-calendar-days"
+                    aria-hidden="true"
+                  ></i>
+
+                  <span>1 สิงหาคม 2026</span>
+                </p>
+              </div>
+            </div>
+
+            <a href="latest-results.html">
+              <span>ดูผลรางวัลทั้งหมด</span>
+
+              <i
+                class="fa-solid fa-arrow-right"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </header>
+
+          <div class="prize-list">
+            <div class="prize prize--first">
+              <div class="prize__image">
+                <img
+                  src="assets/images/1.png"
+                  alt="รางวัลที่ 1"
+                >
+              </div>
+
+              <div class="prize__information">
+                <h3>รางวัลที่ 1</h3>
+                <p>1 รางวัล</p>
+
+                <strong>
+                  50
+                  <small>ล้านยูโร</small>
+                </strong>
+              </div>
+            </div>
+
+            <div class="prize prize--second">
+              <div class="prize__image">
+                <img
+                  src="assets/images/2.png"
+                  alt="รางวัลที่ 2"
+                >
+              </div>
+
+              <div class="prize__information">
+                <h3>รางวัลที่ 2</h3>
+                <p>1 รางวัล</p>
+
+                <strong>
+                  30
+                  <small>ล้านยูโร</small>
+                </strong>
+              </div>
+            </div>
+
+            <div class="prize prize--third">
+              <div class="prize__image">
+                <img
+                  src="assets/images/3.png"
+                  alt="รางวัลที่ 3"
+                >
+              </div>
+
+              <div class="prize__information">
+                <h3>รางวัลที่ 3</h3>
+                <p>1 รางวัล</p>
+
+                <strong>
+                  20
+                  <small>ล้านยูโร</small>
+                </strong>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="dashboard-card countdown-card">
+          <header class="compact-title">
+            <span
+              class="compact-title__icon"
+              aria-hidden="true"
+            >
+              <i class="fa-regular fa-clock"></i>
+            </span>
+
+            <div>
+              <h2>งวดถัดไป</h2>
+              <p>2 สิงหาคม 2026</p>
+            </div>
+          </header>
+
+          <div
+            class="countdown"
+            data-countdown="2026-08-02T16:00:00"
+          >
+            <div class="countdown__item">
+              <strong data-days>00</strong>
+              <span>วัน</span>
+            </div>
+
+            <div class="countdown__item">
+              <strong data-hours>14</strong>
+              <span>ชั่วโมง</span>
+            </div>
+
+            <div class="countdown__item">
+              <strong data-minutes>32</strong>
+              <span>นาที</span>
+            </div>
+
+            <div class="countdown__item">
+              <strong data-seconds>18</strong>
+              <span>วินาที</span>
+            </div>
+          </div>
+
+          <div class="countdown-card__note">
+            <span aria-hidden="true">
+              <i class="fa-regular fa-calendar-check"></i>
+            </span>
+
+            <div>
+              <strong>ซื้อสลากได้แล้ววันนี้</strong>
+
+              <p>
+                ร่วมสนับสนุนชุมชน สร้างอนาคตที่ดีกว่า
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="dashboard-card announcement-card">
+          <header class="compact-title">
+            <span
+              class="compact-title__icon"
+              aria-hidden="true"
+            >
+              <i class="fa-solid fa-bullhorn"></i>
+            </span>
+
+            <h2>ประกาศจากองค์กร</h2>
+          </header>
+
+          <div class="announcement-card__meta">
+            <span>ข่าวสาร</span>
+
+            <time datetime="2026-07-28">
+              28 กรกฎาคม 2026
+            </time>
+          </div>
+
+          <h3>เปิดจำหน่ายสลากงวดใหม่</h3>
+
+          <p>
+            สลาก AEC TREASURY LOTTO งวดวันที่ 2 สิงหาคม 2026
+            พร้อมจำหน่ายแล้ววันนี้ รายได้ส่วนหนึ่งสนับสนุน
+            โครงการพัฒนาชุมชนและเกษตรกรไทย
+          </p>
+
+          <a href="#">
+            <span>ดูข่าวทั้งหมด</span>
+
+            <i
+              class="fa-solid fa-arrow-right"
+              aria-hidden="true"
+            ></i>
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div data-component="footer"></div>
+</body>
+</html>

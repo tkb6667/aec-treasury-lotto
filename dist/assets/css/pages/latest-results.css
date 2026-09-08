@@ -1,0 +1,2 @@
+.prize-grid strong { color: var(--burgundy); font-size: clamp(26px, 4vw, 48px); letter-spacing: .12em; }
+.first-prize { border-color: var(--gold); background: linear-gradient(145deg, #fff, var(--blush)); }

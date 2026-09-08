@@ -1,0 +1,4 @@
+.prize-form { max-width: 760px; display: grid; gap: 12px; }
+.prize-form label { font-weight: 700; }
+.prize-form input, .prize-form select { min-height: 54px; padding: 0 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); }
+.prize-form .button-primary { margin-top: 12px; }
